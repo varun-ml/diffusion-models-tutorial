@@ -35,3 +35,11 @@
 7. Circles + moon using Clipping 
 
 ![alt text](complex_clipping_energy.gif "Circles + Half moons generated using score estimation in denoising process + using clipping")
+
+8. Generating class-conditioned distributions
+
+![alt text](class_conditioned_moon_circles.gif "Circles + Half moons generated using class conditioned score estimation in denoising process + using clipping")
+
+9. Generating class-conditioned distributions (few shots only using 2k samples)
+
+![alt text](class_conditioned_mixed_few_shot.gif "(few shot learning) Circles + Half moons generated using class conditioned score estimation in denoising process + using clipping")
