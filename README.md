@@ -1,17 +1,17 @@
 # Work on Density estimation using Diffusion models (Pytorch + Jax)
 
-#### Will be demonstating critical concepts of diffusion model using some toy 2d distribution firstly, followed by using same concepts on EMNIST datasets
+#### Will be demonstrating critical concepts of diffusion model using some toy 2d distribution firstly, followed by using same concepts on EMNIST datasets
 
 *Done*
 
 * Ground truth data estimation/ Error estimation/ Score estimation of diffusion process
 * Cosine and linear schedules
 * Clipping to improve stabalization of the generation process
-
-*Pending*
 * Time embedding to encode timestep in model
 * Classifier free guidance and semi supervised model training
-* Faster sampling in generation process usind implicit models and skipping steps in denoising
+* Faster sampling in generation process using striding steps in denoising
+
+*Pending*
 * Learning the schedule
 * EMNIST data generation using U-nets and JAX 
 
